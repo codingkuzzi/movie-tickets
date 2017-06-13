@@ -13,7 +13,7 @@
     <h1>Movie tickets</h1>
     <form id="new-ticket">
       <div class="form-group">
-        <label for="movie">Select the name of a movie, the time of day movie and your age:</label>
+        <label for="movie">Select the name of a movie:</label>
         <select class="form-control" id="movie">
           <option>Wonder Woman</option>
           <option>Cars 1</option>
@@ -21,7 +21,25 @@
           <option>Cars 3</option>
         </select>
       </div>
-
+      <div class="form-group">
+        <label for="time">Select the time of the day:</label>
+        <select class="form-control" id="time">
+          <option>9:00 AM - 12:00 PM</option>
+          <option>12:00 PM - 15:00 PM</option>
+          <option>15:00 PM - 19:00 PM</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="age">Select your age:</label>
+        <select class="form-control" id="age">
+          <option>below 60</option>
+          <option>60 +</option>
+        </select>
+      </div>
+      <button type="submit" class="btn">Add</button>
+    </form>
+      <div id="result">
+      </div>
     </div>
   </body>
 </html>
