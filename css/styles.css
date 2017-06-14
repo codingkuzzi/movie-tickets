@@ -1,12 +1,14 @@
 #new-ticket {
-  margin-top: 10%;
-  margin-left: 25%;
-  margin-right: 25%;
+  margin-top: 5%;
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 .container {
-  margin-top: 15%;
+  margin-top: 10%;
   margin-bottom: 15%;
+  margin-left: 15%;
+  margin-right: 15%;
   background-color: #99baef;
   padding: 5%;
 }
